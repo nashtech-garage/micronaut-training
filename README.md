@@ -47,8 +47,7 @@ mvn spring-boot:run
 Or:
 
 ```java
-java -
-jar target/springboot-crud-app-1.0-SNAPSHOT.jar
+java -jar target/springboot-crud-app-1.0-SNAPSHOT.jar
 ```
 
 ---

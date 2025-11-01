@@ -62,7 +62,7 @@ Example JSON:
 - To test endpoints, use Postman or curl:
 
 ```json
-curl -X POST http://localhost:8080/books \
+curl -X POST http://localhost:8082/books \
 -H "Content-Type: application/json" \
 -d '{"title": "Reactive Micronaut", "author": "Jane"}'
 ```
