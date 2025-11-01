@@ -1,30 +1,29 @@
-# ⚙️ Micronaut CRUD App
+# ⚙️ Spring Boot CRUD App
 
-This module is a **Micronaut 4.10.1** web application for managing `Book` entities.
+This module is a **Spring Boot 3.3.4** web application implementing the same CRUD functionality as the Micronaut app.
 
 ---
 
 ## 📦 Tech Stack
 
-- **Micronaut 4.10.1**
-- **Micronaut Data (Hibernate JPA)**
+- **Spring Boot 3.3.4**
+- **Spring Web + Spring Data JPA**
 - **H2 in-memory database**
-- **Micronaut Serde (Jackson)**
 - **Lombok**
-- **JUnit 5 + Micronaut Test**
+- **JUnit 5 + Spring Boot Test + MockMvc**
 
 ---
 
 ## 🚀 Run Application
 
 ```bash
-mvn mn:run
+mvn spring-boot:run
 ```
 
 or
 
 ```java
-java - jar target/micronaut-crud-app-1.0-SNAPSHOT.jar
+java -jar target/springboot-crud-app-1.0-SNAPSHOT.jar
 ```
 
 ---
